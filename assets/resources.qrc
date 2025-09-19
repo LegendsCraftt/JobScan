@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>checkbox.png</file>
+        <file>checkbox_hover.png</file>
+
+        <file>unchecked.png</file>
+        <file>unchecked_hover.png</file>
+
+        <file>JS_logo.ico</file>
+        <file>JS_logo.png</file>
+
+        <file>jobscan-transparent-256-ico.ico</file>
+        <file>jobscan-transparent-64-ico.ico</file>
+
+        <file>search.png</file>
+    </qresource>
+</RCC>
