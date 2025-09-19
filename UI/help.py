@@ -1,5 +1,6 @@
 from PyQt6.QtWidgets import QDialog, QVBoxLayout, QLabel, QPushButton
 from PyQt6.QtCore import Qt
+from version import __version__ as version
 
 
 class HelpWindow(QDialog):
@@ -23,7 +24,8 @@ class HelpWindow(QDialog):
             "Check out the about section in the menu bar.\n\n"
             "Contact the developer:\n"
             "Email:           tylere@metalsfab.com\n"
-            "Phone #:      (509)-244-2909 EXT 102\n"
+            "Phone #:      (509)-244-2909 EXT 102\n\n"
+            f"Version: {version}"
         )
         desc.setWordWrap(True)
         desc.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse)
